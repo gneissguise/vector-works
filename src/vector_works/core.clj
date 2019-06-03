@@ -14,5 +14,4 @@
   "Shuffles a vector, and pairs with a shifted copy of the vector guaranteeing a non-matching pair"
   [v]
   (let [randv (shuffle v)]
-    (vec (vector-pair randv (vector-shift randv))))
-  )
+    (vec (vector-pair randv (vector-shift randv)))))
